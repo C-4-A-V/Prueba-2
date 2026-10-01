@@ -1,0 +1,66 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Ana Torres",
+      "telefono": "+57 300 111 2233",
+      "email": "ana.torres@example.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Gómez",
+      "telefono": "+57 300 444 5566",
+      "email": "carlos.gomez@example.com"
+    }
+  ],
+  "mascotas": [
+    {
+      "id": 101,
+      "clienteId": 1,
+      "nombre": "Luna",
+      "especie": "Perro",
+      "raza": "Labrador",
+      "edad": 4
+    },
+    {
+      "id": 102,
+      "clienteId": 2,
+      "nombre": "Milo",
+      "especie": "Gato",
+      "raza": "Criollo",
+      "edad": 2
+    }
+  ],
+  "servicios": [
+    {
+      "id": "S-01",
+      "nombre": "Consulta general",
+      "duracionMinutos": 30,
+      "precio": 50000
+    },
+    {
+      "id": "S-02",
+      "nombre": "Vacunación",
+      "duracionMinutos": 20,
+      "precio": 35000
+    }
+  ],
+  "citas": [
+    {
+      "id": "C-1001",
+      "mascotaId": 101,
+      "servicioId": "S-01",
+      "fecha": "2026-10-05",
+      "hora": "09:00",
+      "estado": "pendiente"
+    },
+    {
+      "id": "C-1002",
+      "mascotaId": 102,
+      "servicioId": "S-02",
+      "fecha": "2026-10-06",
+      "hora": "11:00",
+      "estado": "pendiente"
+    }
+  ]
+}
